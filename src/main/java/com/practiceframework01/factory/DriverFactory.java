@@ -22,6 +22,7 @@ public final class DriverFactory {
 	      case EDGE:
 	    	  return new EdgeDriver();
 	    	  
+	    	  
 	      default:
 	    	  throw new IllegalArgumentException("UnSupported Browser:" + browser);
 	  }
